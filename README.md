@@ -1,4 +1,7 @@
-The goal of this coding exam is to quickly get you off the ground with **Lists and Keys** in React JS.
+### Character Counter App (React JS)
+
+This project is a Character Counter application built using React JS, designed to help understand and practice Lists and Keys in React.
+Users can enter text, add it to a list, and instantly see the character count for each entry.
 
 ### Refer to the image below:
 
@@ -92,4 +95,17 @@ The app must have the following functionalities
 >
 > - All components you implement should go in the `src/components` directory.
 > - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
+
+### Learning Outcome
+
+#### This project helps reinforce:
+
+React state management
+
+Handling form inputs
+
+Rendering lists using keys
+
+Using external packages like uuid
+
+Building clean and responsive UI layouts

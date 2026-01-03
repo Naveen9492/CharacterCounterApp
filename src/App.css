@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.card-container {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-container {
+  width: 50%;
+  height: 100%;
+  background-color: #ffc533;
+  padding: 15px;
+  border-radius: 25px 0px 0px 25px;
+}
+.right-container {
+  width: 50%;
+  height: 100%;
+  background-color: #0f172a;
+  padding: 15px;
+  border-radius: 0px 25px 25px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left-top-container {
+  width: 100%;
+  height: 25%;
+  background-color: #ffbf1f;
+  padding: 10px;
+}
+.left-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #334155;
+  margin: 0px;
+}
+
+.right-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffbf1f;
+}
+.word-container {
+  list-style: none;
+  height: 75%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: auto;
+}
+.word-length {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  color: #272c47;
+  margin-bottom: 10px;
+}
+.search-add-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-input {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 5px;
+  flex-grow: 1;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+}
+.button {
+  height: 35px;
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 600;
+  color: #475569;
+  background-color: #ffc533;
+}
+.no-words-image {
+  width: 95%;
+  height: 95%;
+}

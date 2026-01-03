@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/CharacterCounterApp/static/css/main.b468f2b6.chunk.css",
-    "main.js": "/CharacterCounterApp/static/js/main.a2a2235b.chunk.js",
-    "main.js.map": "/CharacterCounterApp/static/js/main.a2a2235b.chunk.js.map",
+    "main.css": "/CharacterCounterApp/static/css/main.aaa9074e.chunk.css",
+    "main.js": "/CharacterCounterApp/static/js/main.489de050.chunk.js",
+    "main.js.map": "/CharacterCounterApp/static/js/main.489de050.chunk.js.map",
     "runtime-main.js": "/CharacterCounterApp/static/js/runtime-main.1c5b5cad.js",
     "runtime-main.js.map": "/CharacterCounterApp/static/js/runtime-main.1c5b5cad.js.map",
     "static/js/2.2f6edd19.chunk.js": "/CharacterCounterApp/static/js/2.2f6edd19.chunk.js",
     "static/js/2.2f6edd19.chunk.js.map": "/CharacterCounterApp/static/js/2.2f6edd19.chunk.js.map",
     "index.html": "/CharacterCounterApp/index.html",
-    "static/css/main.b468f2b6.chunk.css.map": "/CharacterCounterApp/static/css/main.b468f2b6.chunk.css.map",
+    "static/css/main.aaa9074e.chunk.css.map": "/CharacterCounterApp/static/css/main.aaa9074e.chunk.css.map",
     "static/js/2.2f6edd19.chunk.js.LICENSE.txt": "/CharacterCounterApp/static/js/2.2f6edd19.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1c5b5cad.js",
     "static/js/2.2f6edd19.chunk.js",
-    "static/css/main.b468f2b6.chunk.css",
-    "static/js/main.a2a2235b.chunk.js"
+    "static/css/main.aaa9074e.chunk.css",
+    "static/js/main.489de050.chunk.js"
   ]
 }

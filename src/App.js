@@ -43,8 +43,10 @@ class App extends Component {
                 />
               ) : (
                 wordList.map(eachWord => (
-                  <li key={eachWord.id} className="word-length">
-                    {eachWord.word} : {eachWord.word.length}
+                  <li key={eachWord.id}>
+                    <p className="word-length">
+                      {eachWord.word} : {eachWord.word.length}
+                    </p>
                   </li>
                 ))
               )}
@@ -52,12 +54,13 @@ class App extends Component {
           </div>
           <div className="right-container">
             <h1 className="right-heading">Character Counter</h1>
-            <div className="search-add-container">
+            <form className="search-add-container">
               <input
                 type="text"
                 className="search-input"
                 value={searchInput}
                 onChange={this.onChangeSearchInput}
+                placeholder="Enter the Characters here"
               />
               <button
                 type="button"
@@ -66,7 +69,7 @@ class App extends Component {
               >
                 Add
               </button>
-            </div>
+            </form>
           </div>
         </div>
       </div>
